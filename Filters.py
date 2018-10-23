@@ -10,6 +10,8 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+## image source: http://ohsoft.net/eng/ocam/tutorial/tutorial019.php?cate=1002
+
 imBGR = cv2.imread('p4.png')
 imRGB = cv2.cvtColor(imBGR, cv2.COLOR_BGR2RGB) # change image pattern into RGB
 imGRAY = cv2.cvtColor(imRGB, cv2.COLOR_RGB2GRAY) # change image pattern into Gray scale
